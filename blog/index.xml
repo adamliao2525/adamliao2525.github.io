@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blog on Adam&#39;s blog</title>
+    <link>https://adamliao2525.github.io/blog/</link>
+    <description>Recent content in blog on Adam&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Tue, 29 Oct 2019 13:49:23 +0600</lastBuildDate><atom:link href="https://adamliao2525.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>常用網站彙整清單</title>
+      <link>https://adamliao2525.github.io/blog/post-1/</link>
+      <pubDate>Sat, 22 Jul 2023 10:07:47 +0700</pubDate>
+      
+      <guid>https://adamliao2525.github.io/blog/post-1/</guid>
+      <description>財經新聞 財經數據 央行利率與會期 利率網站 總經數據 匯通網財經日曆 FED 會期 CME TSFR TradingEconomics Investing.</description>
+    </item>
+    
+  </channel>
+</rss>
