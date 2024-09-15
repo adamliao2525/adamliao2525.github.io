@@ -6,14 +6,69 @@
     <description>Recent content on Adam&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sat, 22 Jul 2023 10:07:47 +0700</lastBuildDate><atom:link href="https://adamliao2525.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 Sep 2024 15:35:22 +0800</lastBuildDate><atom:link href="https://adamliao2525.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>常用網站彙整清單</title>
+      <title>選擇權操作</title>
+      <link>https://adamliao2525.github.io/blog/post-10/</link>
+      <pubDate>Fri, 13 Sep 2024 15:35:22 +0800</pubDate>
+      
+      <guid>https://adamliao2525.github.io/blog/post-10/</guid>
+      <description>主要探討選擇權定價、Greek，以及選擇權權的組合。 選單書籤列表 一. 選擇權概述 1.選擇權的價值構成 2.選擇權形式 3.影響選擇權價格的主要因素 二. 選擇權定價模型 1.</description>
+    </item>
+    
+    <item>
+      <title>外幣資金調度實務</title>
+      <link>https://adamliao2525.github.io/blog/post-7/</link>
+      <pubDate>Sat, 06 Jan 2024 10:07:47 +0600</pubDate>
+      
+      <guid>https://adamliao2525.github.io/blog/post-7/</guid>
+      <description>聚焦在外幣資金調度，包含：外幣資金調度決策因素、外匯利率避險規劃、主要交易工具、外匯交易申報及國際金流。 惟現金收支預測、應收應付帳款管理，及稅務規劃，須依據個別公司不同財會政策及投資屬性考量，不在此進行說明。 選單書籤列表 一. 財務資金調度決策 1. 資金調度決策規劃與訂定 2.資金不足之融通方式 3.資金剩餘之運用途徑 二.</description>
+    </item>
+    
+    <item>
+      <title>Bloomberg終端機功能</title>
+      <link>https://adamliao2525.github.io/blog/post-5/</link>
+      <pubDate>Mon, 01 Jan 2024 07:00:47 +0600</pubDate>
+      
+      <guid>https://adamliao2525.github.io/blog/post-5/</guid>
+      <description>== 基本指令介紹 == 1. BLP：博覽家 （LLP指令可將工作表或圖形轉成博覽家組成元素）
+2. BPS：彭博資源中心 3. BHUB：彭博中心</description>
+    </item>
+    
+    <item>
+      <title>外匯交易實務</title>
+      <link>https://adamliao2525.github.io/blog/post-4/</link>
+      <pubDate>Sat, 30 Dec 2023 15:35:22 +0800</pubDate>
+      
+      <guid>https://adamliao2525.github.io/blog/post-4/</guid>
+      <description>選單書籤列表 一. 外匯交易基本概念 : 1.流通貨幣vs管制貨幣 2.美元指數 3.全球外匯市場運作 4.直接匯率(Direct Rate) vs 間接匯率( Indirect Rate ) 5.</description>
+    </item>
+    
+    <item>
+      <title>外派越南工作筆記</title>
+      <link>https://adamliao2525.github.io/blog/post-2/</link>
+      <pubDate>Wed, 23 Aug 2023 10:07:47 +0600</pubDate>
+      
+      <guid>https://adamliao2525.github.io/blog/post-2/</guid>
+      <description>工作筆記綱要: 一. 資金調度 二. 調度公司及銀行額度 三. 外債管理 四. 稅務相關 五. 新聞網頁 ====================================</description>
+    </item>
+    
+    <item>
+      <title>常用網站</title>
       <link>https://adamliao2525.github.io/blog/post-1/</link>
       <pubDate>Sat, 22 Jul 2023 10:07:47 +0700</pubDate>
       
       <guid>https://adamliao2525.github.io/blog/post-1/</guid>
-      <description>財經新聞 財經數據 央行利率與會期 利率網站 總經數據 新聞網頁 匯通網財經日曆 FED 會期 CME TSFR TradingEconomics 工商時報各版頭條 Investing.</description>
+      <description>財經新聞 財經數據 央行利率與會期 利率網站 總經數據 財經新聞 科技新聞 全球新聞 匯通網財經日曆 FED 會期 CME TSFR TradingEconomics 工商時報各版頭條 科技新報 轉角國際 Investing.</description>
+    </item>
+    
+    <item>
+      <title>燃油避險</title>
+      <link>https://adamliao2525.github.io/blog/post-3/</link>
+      <pubDate>Sat, 30 Jul 2022 17:10:00 +0600</pubDate>
+      
+      <guid>https://adamliao2525.github.io/blog/post-3/</guid>
+      <description>能源相關連結: 1. IEA國際能源署 2. EIA美國能源資訊管理局 3. OPEC石油輸出國組織 4. BP英國石油公司Energy Outlook 5.</description>
     </item>
     
   </channel>

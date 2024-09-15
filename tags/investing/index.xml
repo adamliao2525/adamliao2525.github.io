@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Investing on Adam&#39;s blog</title>
+    <link>https://adamliao2525.github.io/tags/investing/</link>
+    <description>Recent content in Investing on Adam&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Fri, 13 Sep 2024 15:35:22 +0800</lastBuildDate><atom:link href="https://adamliao2525.github.io/tags/investing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>選擇權操作</title>
+      <link>https://adamliao2525.github.io/blog/post-10/</link>
+      <pubDate>Fri, 13 Sep 2024 15:35:22 +0800</pubDate>
+      
+      <guid>https://adamliao2525.github.io/blog/post-10/</guid>
+      <description>主要探討選擇權定價、Greek，以及選擇權權的組合。 選單書籤列表 一. 選擇權概述 1.選擇權的價值構成 2.選擇權形式 3.影響選擇權價格的主要因素 二. 選擇權定價模型 1.</description>
+    </item>
+    
+    <item>
+      <title>外匯交易實務</title>
+      <link>https://adamliao2525.github.io/blog/post-4/</link>
+      <pubDate>Sat, 30 Dec 2023 15:35:22 +0800</pubDate>
+      
+      <guid>https://adamliao2525.github.io/blog/post-4/</guid>
+      <description>選單書籤列表 一. 外匯交易基本概念 : 1.流通貨幣vs管制貨幣 2.美元指數 3.全球外匯市場運作 4.直接匯率(Direct Rate) vs 間接匯率( Indirect Rate ) 5.</description>
+    </item>
+    
+    <item>
+      <title>燃油避險</title>
+      <link>https://adamliao2525.github.io/blog/post-3/</link>
+      <pubDate>Sat, 30 Jul 2022 17:10:00 +0600</pubDate>
+      
+      <guid>https://adamliao2525.github.io/blog/post-3/</guid>
+      <description>能源相關連結: 1. IEA國際能源署 2. EIA美國能源資訊管理局 3. OPEC石油輸出國組織 4. BP英國石油公司Energy Outlook 5.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,14 +6,24 @@
     <description>Recent content in Tools on Adam&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sat, 22 Jul 2023 10:07:47 +0700</lastBuildDate><atom:link href="https://adamliao2525.github.io/categories/tools/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Jan 2024 07:00:47 +0600</lastBuildDate><atom:link href="https://adamliao2525.github.io/categories/tools/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>常用網站彙整清單</title>
+      <title>Bloomberg終端機功能</title>
+      <link>https://adamliao2525.github.io/blog/post-5/</link>
+      <pubDate>Mon, 01 Jan 2024 07:00:47 +0600</pubDate>
+      
+      <guid>https://adamliao2525.github.io/blog/post-5/</guid>
+      <description>== 基本指令介紹 == 1. BLP：博覽家 （LLP指令可將工作表或圖形轉成博覽家組成元素）
+2. BPS：彭博資源中心 3. BHUB：彭博中心</description>
+    </item>
+    
+    <item>
+      <title>常用網站</title>
       <link>https://adamliao2525.github.io/blog/post-1/</link>
       <pubDate>Sat, 22 Jul 2023 10:07:47 +0700</pubDate>
       
       <guid>https://adamliao2525.github.io/blog/post-1/</guid>
-      <description>財經新聞 財經數據 央行利率與會期 利率網站 總經數據 新聞網頁 匯通網財經日曆 FED 會期 CME TSFR TradingEconomics 工商時報各版頭條 Investing.</description>
+      <description>財經新聞 財經數據 央行利率與會期 利率網站 總經數據 財經新聞 科技新聞 全球新聞 匯通網財經日曆 FED 會期 CME TSFR TradingEconomics 工商時報各版頭條 科技新報 轉角國際 Investing.</description>
     </item>
     
   </channel>

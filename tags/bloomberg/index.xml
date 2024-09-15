@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bloomberg on Adam&#39;s blog</title>
+    <link>https://adamliao2525.github.io/tags/bloomberg/</link>
+    <description>Recent content in Bloomberg on Adam&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Mon, 01 Jan 2024 07:00:47 +0600</lastBuildDate><atom:link href="https://adamliao2525.github.io/tags/bloomberg/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bloomberg終端機功能</title>
+      <link>https://adamliao2525.github.io/blog/post-5/</link>
+      <pubDate>Mon, 01 Jan 2024 07:00:47 +0600</pubDate>
+      
+      <guid>https://adamliao2525.github.io/blog/post-5/</guid>
+      <description>== 基本指令介紹 == 1. BLP：博覽家 （LLP指令可將工作表或圖形轉成博覽家組成元素）
+2. BPS：彭博資源中心 3. BHUB：彭博中心</description>
+    </item>
+    
+  </channel>
+</rss>

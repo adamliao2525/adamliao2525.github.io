@@ -1,0 +1,1214 @@
+<!DOCTYPE html>
+<html lang="zh-tw"><head>
+  <meta charset="utf-8">
+  <base target="blank" />
+  
+  <title>Adam&#39;s blog</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="this is meta description">
+  <meta name="author" content="Adam  ">
+  <meta name="generator" content="Hugo 0.115.4">
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://adamliao2525.github.io/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://adamliao2525.github.io/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://adamliao2525.github.io/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="https://adamliao2525.github.io/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://adamliao2525.github.io/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://adamliao2525.github.io/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://adamliao2525.github.io/images/favicon.png " type="image/x-icon">
+
+  <!-- google analitycs -->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'Your ID', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="https://adamliao2525.github.io"><img class="img-fluid"
+          src="https://adamliao2525.github.io/images/logo2.png" alt="Adam&#39;s blog"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu h3"></i>
+      </button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://adamliao2525.github.io/about">About</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://adamliao2525.github.io/blog">Post</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://adamliao2525.github.io/gallery">Gallery</a>
+          </li>
+          
+          
+        </ul>
+        <a class="navbar-brand mx-auto desktop-view" href="https://adamliao2525.github.io"><img class="img-fluid"
+            src="https://adamliao2525.github.io/images/logo2.png" alt="Adam&#39;s blog"></a>
+        
+        <!-- search -->
+        <div class="search pl-lg-4">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="https://adamliao2525.github.io/search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row http://localhost:1313/">
+      <div class="col-lg mx-auto">
+        <h2>選擇權操作</h2>
+        
+        <div class="col-lg-9 row justify-content-end">
+          <span>By Adam  </span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>13 September 2024</span>
+          <span>&ensp;of&emsp;</span>
+          <span>
+            
+            <a href="/categories/notes"
+            class="text-primary">Notes</a>
+            
+          </span>
+          
+        </div>
+        <div style="height:20px"> </div>
+        <div class="col-lg-8 offset-md-1">
+          
+        </div>
+        <div class="content mb-5">
+          <p> </p>
+<h5 id="主要探討選擇權定價greek以及選擇權權的組合">主要探討選擇權定價、Greek，以及選擇權權的組合。</h5>
+<hr>
+<p> </p>
+<p><img src="../../images/post/post-10-Market.png" alt="image"></p>
+<p> </p>
+<h2 id="選單書籤列表">選單書籤列表</h2>
+<h3 id="一選擇權概述項目一-選擇權概述">一.<a
+
+	
+	
+		href = "#%e9%a0%85%e7%9b%ae%e4%b8%80-%e9%81%b8%e6%93%87%e6%ac%8a%e6%a6%82%e8%bf%b0"
+
+		
+
+	
+
+	>
+	
+	<span>
+		選擇權概述
+	</span>
+
+</a></h3>
+<h4 id="emspemsp1選擇權的價值構成1-選擇權的價值構成">  <a
+
+	
+	
+		href = "#1-%e9%81%b8%e6%93%87%e6%ac%8a%e7%9a%84%e5%83%b9%e5%80%bc%e6%a7%8b%e6%88%90"
+
+		
+
+	
+
+	>
+	
+	<span>
+		1.選擇權的價值構成
+	</span>
+
+</a></h4>
+<h4 id="emspemsp2選擇權形式2-選擇權形式">  <a
+
+	
+	
+		href = "#2-%e9%81%b8%e6%93%87%e6%ac%8a%e5%bd%a2%e5%bc%8f"
+
+		
+
+	
+
+	>
+	
+	<span>
+		2.選擇權形式
+	</span>
+
+</a></h4>
+<h4 id="emspemsp3影響選擇權價格的主要因素3-影響選擇權價格的主要因素">  <a
+
+	
+	
+		href = "#3-%e5%bd%b1%e9%9f%bf%e9%81%b8%e6%93%87%e6%ac%8a%e5%83%b9%e6%a0%bc%e7%9a%84%e4%b8%bb%e8%a6%81%e5%9b%a0%e7%b4%a0"
+
+		
+
+	
+
+	>
+	
+	<span>
+		3.影響選擇權價格的主要因素
+	</span>
+
+</a></h4>
+<h3 id="二選擇權定價模型項目二-選擇權定價模型">二.<a
+
+	
+	
+		href = "#%e9%a0%85%e7%9b%ae%e4%ba%8c-%e9%81%b8%e6%93%87%e6%ac%8a%e5%ae%9a%e5%83%b9%e6%a8%a1%e5%9e%8b"
+
+		
+
+	
+
+	>
+	
+	<span>
+		選擇權定價模型
+	</span>
+
+</a></h3>
+<h4 id="emspemsp1蒙地卡羅模擬法1-蒙地卡羅模擬法">  <a
+
+	
+	
+		href = "#1-%e8%92%99%e5%9c%b0%e5%8d%a1%e7%be%85%e6%a8%a1%e6%93%ac%e6%b3%95"
+
+		
+
+	
+
+	>
+	
+	<span>
+		1.蒙地卡羅模擬法
+	</span>
+
+</a></h4>
+<h4 id="emspemsp2black-scholes定價模型2-black-scholes定價模型">  <a
+
+	
+	
+		href = "#2-black-scholes%e5%ae%9a%e5%83%b9%e6%a8%a1%e5%9e%8b"
+
+		
+
+	
+
+	>
+	
+	<span>
+		2.Black-Scholes定價模型
+	</span>
+
+</a></h4>
+<h4 id="emspemsp3二項式期權定價模型3-二項式選擇權定價模型binomial-option-pricing-model">  <a
+
+	
+	
+		href = "#3-%e4%ba%8c%e9%a0%85%e5%bc%8f%e9%81%b8%e6%93%87%e6%ac%8a%e5%ae%9a%e5%83%b9%e6%a8%a1%e5%9e%8bbinomial-option-pricing-model"
+
+		
+
+	
+
+	>
+	
+	<span>
+		3.二項式期權定價模型
+	</span>
+
+</a></h4>
+<h3 id="三選擇權交易策略項目三-選擇權交易策略">三.<a
+
+	
+	
+		href = "#%e9%a0%85%e7%9b%ae%e4%b8%89-%e9%81%b8%e6%93%87%e6%ac%8a%e4%ba%a4%e6%98%93%e7%ad%96%e7%95%a5"
+
+		
+
+	
+
+	>
+	
+	<span>
+		選擇權交易策略
+	</span>
+
+</a></h3>
+<h4 id="emspemsp1買權賣權基本交易策略1-買權賣權的基本交易策略">  <a
+
+	
+	
+		href = "#1-%e8%b2%b7%e6%ac%8a%e8%b3%a3%e6%ac%8a%e7%9a%84%e5%9f%ba%e6%9c%ac%e4%ba%a4%e6%98%93%e7%ad%96%e7%95%a5"
+
+		
+
+	
+
+	>
+	
+	<span>
+		1.買權/賣權基本交易策略
+	</span>
+
+</a></h4>
+<h4 id="emspemsp2主要組合式選擇權交易策略2主要組合式選擇權交易策略">  <a
+
+	
+	
+		href = "#2%e4%b8%bb%e8%a6%81%e7%b5%84%e5%90%88%e5%bc%8f%e9%81%b8%e6%93%87%e6%ac%8a%e4%ba%a4%e6%98%93%e7%ad%96%e7%95%a5"
+
+		
+
+	
+
+	>
+	
+	<span>
+		2.主要組合式選擇權交易策略
+	</span>
+
+</a></h4>
+<h4 id="emspemsp3選擇權greeks中立交易策略3-選擇權greeks中立交易策略">  <a
+
+	
+	
+		href = "#3-%e9%81%b8%e6%93%87%e6%ac%8agreeks%e4%b8%ad%e7%ab%8b%e4%ba%a4%e6%98%93%e7%ad%96%e7%95%a5"
+
+		
+
+	
+
+	>
+	
+	<span>
+		3.選擇權Greeks中立交易策略
+	</span>
+
+</a></h4>
+<h4 id="emspemsp4波動率微笑曲線4--波動率微笑曲線volatility-smile">  <a
+
+	
+	
+		href = "#4--%e6%b3%a2%e5%8b%95%e7%8e%87%e5%be%ae%e7%ac%91%e6%9b%b2%e7%b7%9avolatility-smile"
+
+		
+
+	
+
+	>
+	
+	<span>
+		4.波動率微笑曲線
+	</span>
+
+</a></h4>
+<h3 id="四選擇權greeks項目四-選擇權greeks">四.<a
+
+	
+	
+		href = "#%e9%a0%85%e7%9b%ae%e5%9b%9b-%e9%81%b8%e6%93%87%e6%ac%8agreeks"
+
+		
+
+	
+
+	>
+	
+	<span>
+		選擇權Greeks
+	</span>
+
+</a></h3>
+<h4 id="emspemsp1選擇權greeks探討1-選擇權greeks探討">  <a
+
+	
+	
+		href = "#1-%e9%81%b8%e6%93%87%e6%ac%8agreeks%e6%8e%a2%e8%a8%8e"
+
+		
+
+	
+
+	>
+	
+	<span>
+		1.選擇權Greeks探討
+	</span>
+
+</a></h4>
+<h4 id="emspemsp2python-圖型套件2-python-圖型套件">  <a
+
+	
+	
+		href = "#2-python-%e5%9c%96%e5%9e%8b%e5%a5%97%e4%bb%b6"
+
+		
+
+	
+
+	>
+	
+	<span>
+		2.Python 圖型套件
+	</span>
+
+</a></h4>
+<!-- raw HTML omitted -->
+<h4 id="emspemsp3-波動率交易策略3-波動率交易策略">  <a
+
+	
+	
+		href = "#3-%e6%b3%a2%e5%8b%95%e7%8e%87%e4%ba%a4%e6%98%93%e7%ad%96%e7%95%a5"
+
+		
+
+	
+
+	>
+	
+	<span>
+		3. 波動率交易策略
+	</span>
+
+</a></h4>
+<h3 id="五全球主要期貨交易所項目五-全球主要期貨交易所">五.<a
+
+	
+	
+		href = "#%e9%a0%85%e7%9b%ae%e4%ba%94-%e5%85%a8%e7%90%83%e4%b8%bb%e8%a6%81%e6%9c%9f%e8%b2%a8%e4%ba%a4%e6%98%93%e6%89%80"
+
+		
+
+	
+
+	>
+	
+	<span>
+		全球主要期貨交易所
+	</span>
+
+</a></h3>
+<h4 id="emspemsp11-環球銀行金融電訊協會swiftsociety-for-worldwide-interbank-financial-telecommunication">  <a
+
+	
+	
+		href = "#1-%e7%92%b0%e7%90%83%e9%8a%80%e8%a1%8c%e9%87%91%e8%9e%8d%e9%9b%bb%e8%a8%8a%e5%8d%94%e6%9c%83swiftsociety-for-worldwide-interbank-financial-telecommunication"
+
+		
+
+	
+
+	>
+	
+	<span>
+		1.
+	</span>
+
+</a></h4>
+<h4 id="emspemsp22-國際匯款金流">  <a
+
+	
+	
+		href = "#2-%e5%9c%8b%e9%9a%9b%e5%8c%af%e6%ac%be%e9%87%91%e6%b5%81"
+
+		
+
+	
+
+	>
+	
+	<span>
+		2.
+	</span>
+
+</a></h4>
+<h4 id="emspemsp33-swift電文類別">  <a
+
+	
+	
+		href = "#3-swift%e9%9b%bb%e6%96%87%e9%a1%9e%e5%88%a5"
+
+		
+
+	
+
+	>
+	
+	<span>
+		3.
+	</span>
+
+</a></h4>
+<p>&ndash;&gt;</p>
+<p>====================================</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<h3 id="項目一-選擇權概述">項目一. 選擇權概述</h3>
+<p><a
+
+	
+	
+		href = "#%e9%81%b8%e5%96%ae%e6%9b%b8%e7%b1%a4%e5%88%97%e8%a1%a8"
+
+		
+
+	
+
+	>
+	
+	<span>
+		回到選單書籤列表
+	</span>
+
+</a> <br>
+<img src="../../images/post/post-10-Options.png" alt="image"></p>
+<h4 id="1-選擇權的價值構成">1. 選擇權的價值構成</h4>
+<h5 id="emspensp-內在價值">  ＊ 內在價值</h5>
+<p>        ✓ 選擇權當前的實際價值，即履約價格與標的資產價格之間的差額：<br>
+         - 買權的內在價值：Max(標的資產價格−履約價格,0)。<br>
+         - 賣權的內在價值：Max(履約價格−標的資產價格,0)。<br>
+        ✓  依現貨價格與履約價格之不同，選擇權可分為：<br>
+         -  價內(in the money , ITM)選擇權： 內在價值 &gt; 0。<br>
+         -  價平(at the money , ATM)選擇權： 內在價值 ＝ 0。<br>
+         -  價外(out of the money , OTM)選擇權：  內在價值 &lt; 0。<br>
+        ✓ 愈價內的選擇權契約，其權利金愈高；反之，愈價外的選擇權契約，其權利金愈低。</p>
+<h5 id="emspensp-時間價值">  ＊ 時間價值</h5>
+<p>        ✓  選擇權到期前的潛在價值，反映了標的資產價格在到期前可能發生變動的不確定性。<br>
+        ✓  時間價值隨著到期日的接近而遞減,到期日當天時間價值為0。<br>
+        ✓  影響時間價值取因素(參考以下選擇權Greeks內容)：<br>
+         -  選擇權到期日時間愈長，時間價值愈高。<br>
+         -  標的資產價格波動率愈大，時間價值愈高。<br>
+         -  執行價與標的資產價格的差距愈大，時間價值愈高。<br>
+         -  無風險利率越高，時間價值越高。</p>
+<h4 id="2-選擇權形式">2. 選擇權形式</h4>
+<h5 id="emspensp-歐式選擇權">  ＊ 歐式選擇權</h5>
+<p>        -  需在到期時，才可進行履約。</p>
+<h5 id="emspensp-美式選擇權">  ＊ 美式選擇權</h5>
+<p>        -  在到期日之前任何時點，買方皆可要求履約。<br>
+        -  美式選擇權的權利金通常高於歐式選擇權，因為任何時間都能交割。</p>
+<h5 id="emspensp-亞式選擇權">  ＊ 亞式選擇權</h5>
+<p>        -  標的的結算價格以約定的一段期間內的平均價格計算，常見於商品期權。</p>
+<h4 id="3-影響選擇權價格的主要因素">3. 影響選擇權價格的主要因素</h4>
+<h5 id="emspensp-標的資產價格_v-underlying-asset-price">  ＊ 標的資產價格_V (Underlying Asset Price)</h5>
+<p>        -  標的資產價格是選擇權價格最重要的決定因素。<br>
+        -  對於買權，標的資產價格上升會使期權價格上升；對於賣權，標的資產價格下降會使期權價格上升。</p>
+<h5 id="emspensp-履約價格_s-strike-price">  ＊ 履約價格_S (Strike Price)</h5>
+<p>        -  履約價格越低，買權的價值越高；履約價格越高，賣權的價值越高。</p>
+<h5 id="emspensp-到期日_t-time-to-expiration">  ＊ 到期日_T (Time to Expiration)</h5>
+<p>        -  距到期日越近，期權的時間價值越低，因此期權價格也會下降。<br>
+        -  對於同一標的資產和履約價格，到期日越遠的期權價格通常會更高。</p>
+<h5 id="emspensp-波動率_v-volatility">  ＊ 波動率_V (Volatility)</h5>
+<p>        -  <strong>歷史波動率（Historical Volatility）</strong><br>
+         用過去一段時間內股價標準差計算的波動率，衡量過去特定時間段內投資標的價格變化的程度。<br>
+        -  <strong>隱含波動率（Implied Volatility）</strong><br>
+           基於選擇權未來波動率估計，反映了市場對某標的未來波動的看法，隨著市場情緒變化，隱含波動率會上升或下降。<br>
+        -  標的資產價格的波動率越大，期權的時間價值越高，期權價格也會更高。<br>
+        -  歷史波動率用於評估現在價格是否合理，而隱含波動率是市場對未來波動的看法，透過選權權價格變化顯示市場對未來標的價格波動預測的看法。</p>
+<h5 id="emspensp-無風險利率_r-risk-free-interest-rate">  ＊ 無風險利率_R (Risk-Free Interest Rate)</h5>
+<p>        -  無風險利率越高，期權的時間價值越高，期權價格也會更高。</p>
+<h5 id="emspensp-股息_d-dividends">  ＊ 股息_D (Dividends)</h5>
+<p>        -  如果標的資產支付股息，則買權的價格會下降，賣權的價格會上升。</p>
+<h3 id="項目二-選擇權定價模型">項目二. 選擇權定價模型</h3>
+<p><a
+
+	
+	
+		href = "#%e9%81%b8%e5%96%ae%e6%9b%b8%e7%b1%a4%e5%88%97%e8%a1%a8"
+
+		
+
+	
+
+	>
+	
+	<span>
+		回到選單書籤列表
+	</span>
+
+</a></p>
+<h4 id="1-蒙地卡羅模擬法">1. 蒙地卡羅模擬法</h4>
+<p>        <strong>模擬和預測基於幾何布朗運動的資產價格路徑。</strong></p>
+<h5 id="emspensp-主要應用">  ＊ 主要應用</h5>
+<p>        ✓ 金融衍生性商品定價：蒙地卡羅模擬法常用於定價期權等金融衍生品，其中股價路徑的生成基於幾何布朗運動(GBM)模型。<br>
+        ✓ 風險管理：可以評估投資組合的風險，通過模擬不同市場情境下的資產價格變化，提供更全面的風險評估和預測。</p>
+<h5 id="emspensp-模型基礎">  ＊ 模型基礎</h5>
+<p>        ✓  隨機抽樣<br>
+         隨機抽樣：蒙地卡羅模擬法利用隨機數生成來模擬多次試驗，根據試驗結果來計算所需統計量或預測值對於資產價格的預測。<br>
+        ✓  模擬過程<br>
+         1). 初始化：設定初始股價。<br>
+         2). 隨機生成：使用正態分佈生成隨機數，模擬每個時間步驟點的價格變化。<br>
+         3). 計算路徑：根據 GBM 公式計算每個時間步的股價，生成多條價格路徑。<br>
+         4). 統計分析：對所有模擬結果進行統計分析，以計算預測的期望值、風險評估等。</p>
+<h5 id="emspensp-幾何布朗運動geometric-brownian-motion-gbm">  ＊ 幾何布朗運動（Geometric Brownian Motion, GBM）</h5>
+<p>         ✓ 常用於金融數學的模型，用來描述資產價格的變動。<br>
+          此模型為許多金融衍生品定價(如：Black-Scholes模型)提供理論基礎，且在風險管理和投資決策中廣泛應用。<br>
+         ✓ 公式： <br>
+        $$ S(𝑡)=S(𝘰)⋅e^{(μ − \frac{1}{2}σ^2)𝑡+σ\sqrt{d_𝑡}⋅Z_𝑡} $$</p>
+<p>             S(𝑡)：時間𝑡的股價、S(𝘰)：初始股價。<br>
+             μ：股價的期望回報率。<br>
+             σ：股價的波動率。<br>
+             d𝑡：單位時間變化。<br>
+             Z𝑡：～N(0,1)標準常態分配。</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>          - 股價𝑆(𝑡)在時間𝑡的變化可以表示為：<strong>dS(𝑡) = μ•S(𝑡)•d𝑡 + σ•S(𝑡)•dW(𝑡)</strong><br>
+           ✦ 漂移項μ•S(𝑡)•d𝑡：表示股價隨時間的平均增長。<br>
+           ✦ 擾動項σ•S(𝑡)•dW(𝑡)：表示股價的隨機波動，反映了市場的不確定性。<br>
+             dW(𝑡)：維納過程(Wiener process)，一種連續時間隨機過程，具有二項特性：E﹝dW(𝑡) =  及 Var﹝dW(𝑡)〕= d𝑡 。</p>
+<!-- raw HTML omitted -->
+<h5 id="emspensp-模擬過程">  ＊ 模擬過程</h5>
+<p>         <strong>✓ 以μ=0.1,σ=0.15模擬15條股價1,000日變化路徑。</strong><br>
+<img src="../../images/post/post-10-MonteCarlo1000N.png" alt="image"></p>
+<p> </p>
+<p>         <strong>✓ 將其中一條股價變化路徑的日報酬實際分配與常態分配比較。</strong><br>
+<img src="../../images/post/post-10-MonteCarloNDN.png" alt="image"></p>
+<p> </p>
+<p> </p>
+<h4 id="2-black-scholes定價模型">2. Black-Scholes定價模型</h4>
+<p>        <strong>由費雪·布萊克(Fischer Black)和麥倫·舒爾斯(Myron Scholes)於1973年提出，後來由羅伯特·墨頓(Robert Merton)進一步完善。</strong></p>
+<h5 id="emspensp-主要假設">  ＊ 主要假設</h5>
+<p>        <strong>實際應用中，下述假設可能不完全成立，需要進行調整和修正:</strong> <br>
+          1). 市場無摩擦：不存在交易成本和稅收，即買賣選擇權和標的資產不會產生額外費用。<br>
+          2). 無套利機會：市場中不存在無風險套利的機會，即不能通過買賣期權和標的資產獲得無風險利潤。<br>
+          3). 股票價格服從幾何布朗運動：股票價格隨機漫步，且對數收益率服從常態分佈，即價格變動是連續且隨機的。<br>
+          4). 無風險利率恒定：無風險利率在期權有效期內保持不變，不會隨時間波動。<br>
+          5). 股票不支付股利：在期權有效期內，標的股票不支付股利，以簡化模型計算。<br>
+          6). 歐式期權：期權只能在到期日行使。</p>
+<h5 id="emspensp-主要公式">  ＊ 主要公式</h5>
+<p>        <img src="../../images/post/post-10-BlackScholesModel.png" alt="image"><br>
+        -   𝐶(St,t), P(St,t) : 第t日的買、賣權理論價格。<br>
+        -   St, K : 第t日標的物價格與履約價格。<br>
+        -   T, t : 選擇權時間長度與第t天。<br>
+        -   σ : 市場隱含波動率；若採歷史報酬波動度，可用過去252日的報酬來計算波動率。<br>
+        -   r : 無風險利率。<br>
+        -   N( ) : 標準常態分配的累積機率分佈函數。<br>
+         <strong>買賣權平價關係 Put Call Parity : C + PV(x) = P + S𝘰 ，即 P = C + PV(x) - S𝘰</strong><br>
+        -   PV(x) : 執行價之現金現值</p>
+<p>        $$  𝐶{(\mit{S}_t,t)} = {\mit{S}_t}{N(d_1)} - 𝐾e^{-r(𝑇-t)}{N(d_2)}  $$</p>
+<p>        $$  𝑃{(\mit{S}_t,t)} = 𝐾e^{-r(𝑇-t)}{N(-d_2)} - {\mit{S}_t}{N(-d_1)}  $$</p>
+<p>        $$  d_1 = \frac{{ln(\frac{S_t}{𝐾})}+(r+\frac{σ^2}{2})(𝑇-t)}{σ\sqrt{𝑇-t}}  $$</p>
+<p>        $$  d_2 = d_1 -  σ\sqrt{T-t}  $$</p>
+<p> </p>
+<p> </p>
+<h4 id="3-二項式選擇權定價模型binomial-option-pricing-model">3. 二項式選擇權定價模型(Binomial Option Pricing Model)</h4>
+<p>        <strong>由約翰·考克斯（John Carrington Cox）、斯蒂芬·羅斯（Stephen A. Ross）和馬克·魯賓斯坦（Mark Rubinstein）於1979年提出12。</strong></p>
+<h5 id="emspensp基本概念">  ＊基本概念</h5>
+<p>        -   一種靈活且有效的選擇權定價方法，特別適合於美式選擇權的評估。通過構建價格樹，可以詳細分析標的資產價格的變化及其對選擇權價值的影響。<br>
+        -   離散時間模型：將選擇權的有效期期間分成多個小時間步驟節點，每個時間段內股價只有兩種可能的變動方向：上漲或下跌。<br>
+        -   價格樹建立：在每個步驟節點中，標的資產的價格可以上升或下降，形成一個樹狀結構。<br>
+        -   計算每個節點的期權價值：從選擇權的權到期日開始，逐步向前計算每個節點的期權價值，直到當前時間。<br>
+        -   風險中性定價：假設市場是無風險的，計算在每個節點的期望值。<br>
+        -   貼現計算：使用無風險利率將未來的期權價值貼現到當前時間。</p>
+<h5 id="emspensp主要特點">  ＊主要特點</h5>
+<p>        -   適用於美式期權：能夠處理美式選擇權，因為可以在每個節點執行選擇權，可以靈活地調整時間步數，以提高準確性。<br>
+        -   計算量隨著步數增加而增加，對於大量步驟的情況耗費運算資源，另外需假設市場無風險，不符合實際情況。</p>
+<h5 id="emspensp模型推導">  ＊模型推導</h5>
+<p>        $$S_0 ：當前標的資產價格。   𝐾：執行價格。   𝑇：到期時間。   𝑟：無風險利率。   σ：標的資產的波動率。   𝑛：時間步數。$$
+        $$𝑢=𝑒^{σ{\sqrt{𝑡}}}   ,  𝑑=\frac{1}{𝑢}=𝑒^{-σ{\sqrt{𝑡}}}   , 標的資產上漲𝑢或下跌𝑑。 $$
+        $$𝑃＝\frac{𝑒^{{𝑟Δ𝑡}}-𝑑}{𝑢-𝑑}   ,  標的資產漲的機率。$$
+        -  $$ 𝐶_{𝑡-Δ𝑡,𝑖} = 𝑒^{-𝑟Δ𝑡}({𝑃}⋅𝐶_{𝑡,𝑖+1}+(1-𝑃)⋅𝐶_{𝑡,𝑖-1})  , 𝐶_{𝑡,𝑖}是為第i個節點在時間𝑡的價值。 $$</p>
+<!-- raw HTML omitted -->
+<p> </p>
+<p> </p>
+<p><img src="../../images/post/post-10-BinomialTreeNew.png" alt="image"></p>
+<p>     參考資料：<a
+
+	
+	
+		href = "https://www.csie.ntu.edu.tw/~lyuu/finance1/2013/20130313.pdf"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		>
+	
+	<span>
+		呂育道教授＿Option Pricing Models
+	</span>
+
+</a></p>
+<p> </p>
+<p> </p>
+<h3 id="項目三-選擇權交易策略">項目三. 選擇權交易策略</h3>
+<p><a
+
+	
+	
+		href = "#%e9%81%b8%e5%96%ae%e6%9b%b8%e7%b1%a4%e5%88%97%e8%a1%a8"
+
+		
+
+	
+
+	>
+	
+	<span>
+		回到選單書籤列表
+	</span>
+
+</a></p>
+<h4 id="1-買權賣權的基本交易策略">1. 買權、賣權的基本交易策略</h4>
+<h5 id="emspensp----基本型">  ＊    基本型</h5>
+<p>        ✓  陽春型買權(Vanilla Call)<br>
+        ✓  陽春型賣權(Vanilla Put)</p>
+<p><img src="../../images/post/post-10-Vanilla_Options.png" alt="image"></p>
+<!-- raw HTML omitted -->
+<h5 id="emspensp----組合型">  ＊    組合型</h5>
+<p>        ✓  跨式策略(Straddle)</p>
+<p><img src="../../images/post/post-10-Straddle.png" alt="image"></p>
+<p>        ✓  勒式策略(Strangle)</p>
+<p><img src="../../images/post/post-10-Strangle.png" alt="image"></p>
+<p>        ✓  蝶式策略(Butterfly)</p>
+<p><img src="../../images/post/post-10-Butterfly.png" alt="image"></p>
+<p>        ✓  鐵兀鷹(Iron Condor)</p>
+<p><img src="../../images/post/post-10-Iron_Condor.png" alt="image"></p>
+<p>        ✓  固定波幅策略(collar)，又稱為Risk Reversal、Range Forward，亦可組成零成本的Zero Cost Collar；<br>
+        藉由選擇權買賣組合，可在支付少量權利金或不支付權利金條件下，於一定範圍內，選擇權部位損益為O。</p>
+<p><img src="../../images/post/post-10-Collar.png" alt="image"></p>
+<p>        ✓  海鷗策略(Seagull)，又稱為3-Way Collar；<br>
+        藉由賣出2個選擇權及買入1個選擇權，壓低風險對沖成本，惟獲利有上限。</p>
+<p><img src="../../images/post/post-10-Seagull.png" alt="image"></p>
+<h5 id="emspensp----新奇型exotic">  ＊    新奇型(Exotic)</h5>
+<p>        ✓  數位選擇權(Digital Option)<br>
+        買方報償為一特定金額或某，標的資產或兩者皆無的契約。</p>
+<p>        ✓ 界限選擇權(Barrier Option)<br>
+        陽春型選擇權額外增加一個特定標的價格(或指標)的門檻，並依照是否碰觸到門檻來決定選擇權的生效與失效型。<br>
+          - 界限條件：當資產價格觸及或超過這個界限時，選擇權的有效性會改變。<br>
+          - 觸發類型：<br>
+          1).觸發型(Knock-In)：當資產價格觸及其中一個界限時，選擇權開始生效。<br>
+          2).失效型(Knock-Out)：當資產價格觸及其中一個界限時，選擇權失效。<br>
+          - 三種追蹤觸界時段類型：<br>
+          1).美式(American Type)：允許持有者在到期日(含)之前的任何時間觸發選擇權的界限條件。<br>
+          2).窗口式(Window Type)：在特定的時間窗口內有效，只有在這段時間內觸及界限才能生效或失效。<br>
+          3).歐式(European Type)：美只能在到期日當天檢查是否觸及界限。<br>
+          - 成本效益：成本效益：由於其結構，單界限選擇權的價格通常比傳統選擇權便宜，因為它們的風險和潛在收益是受限的。</p>
+<p>        ✓ 數位選擇權(Digital Option)<br>
+          當標的資產價格達到執行價格時，數位選擇權買方獲得固定金額報酬(現金或資產)。</p>
+<p>        ✓ 後付選擇權(Pay-Later Option)，又稱條件選擇權(Contingent Option)、零權利金選擇權(Zero-premium Option)<br>
+          買進選擇權時不需支付權利金，到期時，若選擇權為價內，選擇權買方才須支付權利金。若到期時處於價外，不須支付任何權利金。</p>
+<p>        ✓ 延遲付款選擇權(Deferred Payment Option)，又稱波士頓選擇權(Boston Option)<br>
+          與後付選擇權相似，惟選擇權到期時，不論選擇權是處於價內或是價外的狀態，都必須支付權利金。</p>
+<p>        ✓ 百慕達選擇權(Bermuda Option)，又稱準美式選擇權(Quasi-American Option)、中大西洋選擇權(Mid-Atlantic Option)<br>
+          選擇權買方可在到期日前幾個特定時點或期間，以執行價格買進或賣出標的資產，履約時間，執行價格亦可隨著時間而調整。</p>
+<p>        ✓ 複合選擇權(Compound Option)<br>
+          選擇權的選擇權，複式選擇權之標的資產為另一個選擇權，因此會有2個執行價格與2個到期日。</p>
+<p>        ✓ 組合式選擇權(Basket Option)，又稱一籃子選擇權<br>
+          涵蓋不同投資標的，並以投資組合價格的平均值作為標的資產價格。</p>
+<p>        ✓ 彩虹選擇權(Rainbow Option)，又稱稱多重資產選擇權(Multi-Asset Option)<br>
+          收益取決於兩種或兩種以上標的資產的選擇權，到期時，可依據事先約定的情況，選擇其中一種標的資產執行。</p>
+<p>        ✓ 喜馬拉雅式選擇權(Himalayan Option)<br>
+          具有多個到期執行日、及相同或多種不同資產標的執行價格的選擇權，隨時間依次進行交割。</p>
+<p>        ✓ 巴黎式選擇權(Parisian Type Option)<br>
+          在約定期間內，目標資產價格需連續符合特定條件，選擇權才會生效。</p>
+<p>        ✓ 次方選擇權(Power Option)<br>
+          以標的資產價格次方來計算履約價值的選擇權，潛在獲利機率高，其要求的權利金也較高。</p>
+<p>        ✓ 價差選擇權(Spread Option)<br>
+          以2種標的資產之價差作為標的資產的價格之選擇權。</p>
+<p>        ✓ 遠期生效選擇權(Forward Start Option)，又稱未來生效選擇權(Delayed Option)<br>
+          以選擇權為標的之遠期契約，選擇權買方須先支付權利金，待未來特定時點契約才會生效，且執行價格多設為標的資產在契約生效日時價格(價平）。</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<h4 id="2-主要組合式選擇權交易策略">2. 主要組合式選擇權交易策略</h4>
+<h5 id="emspensp-交易策略擬定">  ＊ 交易策略擬定</h5>
+<p>        -  規避風險：對已持有的投資部位，透過選擇權進行避險。<br>
+        -  獲取報酬：根據對價格走勢的熟捻判斷，針對可能發展的多頭、空頭、盤整的走勢，透過選擇權進行獲利。</p>
+<p><img src="../../images/post/post-10-CombinedOption.png" alt="image"></p>
+<h4 id="3-選擇權greeks中立交易策略">3. 選擇權Greeks中立交易策略</h4>
+<h5 id="emspensp-delta中立delta-neutral">  ＊ Delta中立（Delta Neutral）</h5>
+<p>        <strong>主要用於對沖標的資產價格的小幅波動，適合短期內保持投資組合穩定。</strong><br>
+        -  一種風險管理策略，旨在使投資組合的Delta值接近零，即投資組合的價值對標的資產價格的小幅變動不敏感。<br>
+        -  通過買入或賣出標的資產或其他選擇權來調整投資組合總Delta值，使其接近零。</p>
+<h5 id="emspensp-gamma中立gamma-neutral">  ＊ Gamma中立（Gamma Neutral）</h5>
+<p>        <strong>進一步對沖Delta的變動，適合在市場波動較大時保持投資組合的穩定。</strong><br>
+        -  一種更進階的風險管理策略，旨在使投資組合的Gamma值接近零，即投資組合的Delta值對標的資產價格變動不敏感。<br>
+        -  Gamma中立策略通過買入或賣出選擇權來調整投資組合的總Gamma值，使其接近零。</p>
+<h5 id="emspensp-vega中立vega-neutral">  ＊ Vega中立（Vega Neutral）</h5>
+<p>        -  對沖標的資產隱含波動率的變化，旨在使投資組合對波動率變化不敏感，從而減少波動率對期權價格的影響。<br>
+        -  計算每個選擇權部位的Vega值，透過買入和賣出不同的後則權來平衡總Vega值，使其接近零，隨著市場條件的變化，定期監控和調整投資組合Vega值。<br>
+        <strong>具體策略:</strong><br>
+         1).熊市看漲價差 (Bear Call Spread)：賣出一個Call，同時買入一個相同標的資產但執行價更高的Call。<br>
+         2).熊市看跌價差 (Bear Put Spread)：買入一個Put，同時賣出一個相同標的資產但執行價更低的Put。<br>
+         3).牛市看漲價差 (Bull Call Spread)：買入一個Call，同時賣出一個相同標的資產但執行價更高的Call。<br>
+         4).牛市看跌價差 (Bull Put Spread)：賣出一個Put，同時買入一個相同標的資產但執行價更低的Put。<br>
+         5).合成多頭 (Synthetic Long Stock, or Synthetic Forward)：買入一個Call，同時賣出一個Put，兩者具有相同的執行價和到期日。</p>
+<h4 id="4--波動率微笑曲線volatility-smile">4.  波動率微笑曲線（Volatility Smile）</h4>
+<p>        期權隱含波動率與執行價之間的關係曲線，通常呈現中間低、兩邊高的形狀，像是一個微笑。<br>
+        買權及賣權對應不同執行價的微笑曲線，未必重疊，要看供需及市場預期決定。<br>
+        <strong>✓ 波動率偏斜（Volatility Skew）</strong><br>
+          隱含波動率隨執行價的變化而呈現不對稱的形狀，通常是隨著行權價格的上升或下降而單邊上升。<br>
+         主要成因：<br>
+          -  市場預期：投資者對未來市場走勢的預期不同，認為市場更有可能出現大幅下跌或上漲某方力量更大，進而影響不同執行價的隱含波動率。<br>
+          -  避險需求：對不同執行價的選擇權需求不同，尤其在市場波動較大時，投資者對買權或賣權單方面需求大增，推升隱含波動率。</p>
+<p>        <strong>✓ 波動率微笑變異（Volatility Smirk）</strong><br>
+         類似波動率微笑，但一側的隱含波動率顯著高於另一側，通常是看賣權的隱含波動率高於買權。<br>
+         主要成因：<br>
+          -  市場情緒：投資者對市場下跌的恐慌情緒更強烈，導致賣權的需求及隱含波動率上升。<br>
+          -  避險策略：機構投資者和對沖基金可能更傾向於使用賣權來對沖風險，大幅推升賣權的隱含波動率。<br>
+       - 上述屬於選擇權的隱含波動率v.s.執行價變化的垂直偏斜(Vertical Skew)的波動率微笑曲線。</p>
+<p>        <strong>✓ 時間偏斜（Time Skew）</strong><br>
+         不同到期日的選擇權的隱含波動率不同，通常是短期選擇權的隱含波動率高於長期選擇權。<br>
+         主要成因：<br>
+          -  事件風險：短期內可能發生的重大事件（如財報發布、經濟數據公佈等）會影響短期期權隱含波動率。<br>
+          -  市場不確定性：短期內市場的不確定性較高，投資者對短期期權的需求增加，推升期權隱含波動率。</p>
+<p><img src="../../images/post/post-10-VolSmile.png" alt="image"></p>
+<h3 id="項目四-選擇權greeks">項目四. 選擇權Greeks</h3>
+<p><a
+
+	
+	
+		href = "#%e9%81%b8%e5%96%ae%e6%9b%b8%e7%b1%a4%e5%88%97%e8%a1%a8"
+
+		
+
+	
+
+	>
+	
+	<span>
+		回到選單書籤列表
+	</span>
+
+</a></p>
+<table>
+<thead>
+<tr>
+<th>Greeks</th>
+<th style="text-align:center">Call</th>
+<th style="text-align:center">Put</th>
+<th style="text-align:center">Call Spread</th>
+<th style="text-align:center">Put Spread</th>
+<th style="text-align:center">Seagull</th>
+<th style="text-align:center">Strangle</th>
+<th style="text-align:center">Straddle</th>
+<th style="text-align:center">Butterfly</th>
+<th style="text-align:center">Iron Condor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Delta</td>
+<td style="text-align:center">  十</td>
+<td style="text-align:center">  ㄧ</td>
+<td style="text-align:center">  十</td>
+<td style="text-align:center">  ㄧ</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">  0</td>
+<td style="text-align:center">  0</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td>Gamma</td>
+<td style="text-align:center">  十</td>
+<td style="text-align:center">  十</td>
+<td style="text-align:center">  十(小)</td>
+<td style="text-align:center">  十(小)</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">  十</td>
+<td style="text-align:center">  十</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td>Theta</td>
+<td style="text-align:center">  ㄧ</td>
+<td style="text-align:center">  ㄧ</td>
+<td style="text-align:center">  ㄧ(小)</td>
+<td style="text-align:center">  ㄧ(小)</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">  ㄧ</td>
+<td style="text-align:center">  ㄧ</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td>Vega</td>
+<td style="text-align:center">  十</td>
+<td style="text-align:center">  十</td>
+<td style="text-align:center">  十(小)</td>
+<td style="text-align:center">  十(小)</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">  十</td>
+<td style="text-align:center">  十</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td>選擇權組合</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+</tbody>
+</table>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p> </p>
+<h4 id="1-選擇權greeks探討">1. 選擇權Greeks探討</h4>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<h5 id="emspensp-deltaδ">  ＊ Delta(Δ)</h5>
+<p>        -  選擇權價值對股價變動的敏感度。<br>
+        -  Delta值範圍為-1.00和1.00。買權的Delta為正值，賣權Delta為負值，因標的資產價格與選擇價值存為負相關。<br>
+        -  價內買權的Delta值&gt;0.5、價平買權的Delta值=0.5、價內買權的Delta值&lt;0.5，e.g.,如果買權的Delta=0.2，當標的資產價格上漲1元時，買權價值上漲0.2。<br>
+        -  深度價內的選擇權Delta接近-1.00或1.00，此時的時間價值趨近為0。<br>
+        -  除了標的價格影響Delta外，越接近到期日，Detla則會上升。<br>
+        -  依據常態分配，delta=0.2的買權期滿時，有20%會落在價內，而delta=0.95的買權期滿時，有95%會落在價內。</p>
+<p>         $$  Δ_{call} = \frac{\partial 𝐶}{\partial {\mit{S}}}  =N(d_{ 1}) $$</p>
+<p>         $$  Δ_{put} = \frac{\partial P}{\partial {\mit{S}}}  =N(d_{ 1}) -1 $$</p>
+<p><img src="../../images/post/post-10-Call_Delta.gif" alt="image">  <img src="../../images/post/post-10-Put_Delta.gif" alt="image"></p>
+<p> </p>
+<p> </p>
+<h5 id="emspensp-gammaγ">  ＊ Gamma(Γ)</h5>
+<p>        -  衡量選擇權非線性的程度，即Delta的變化速率。即做對了幫你加碼，做錯了幫你減碼 → 付出較多的時間價值。<br>
+        -  價平選擇權的Gamma值最高，而深度價內及價外的選擇權的Gamma最低。<br>
+        -  二個相同Detla的選擇權，但Gamma值不同，較高gammga值的選擇權帶有較高風險，不立整體選擇權部位風險穩定平衡。<br>
+        -  簡言之，Delta代表選擇權在到期時獲利的機率，Gamma則代表這一機率隨時間變化的穩定性。<br>
+        -  一個高Gamma值、Delta=0.75選擇權，相較低Gamma但相同Delta值的選擇權，於到期時獲利機率較低。<br>
+        -  深度價內或價外的選擇權Gamma值最低，價平時最高。</p>
+<p>        - $$  Γ_{call} = Γ_{put}  =  \frac{\partial  ^2C}{\partial {\mit{ S ^2}}}  = \frac{\partial  ^2P}{\partial {\mit{ S ^2}}} = \frac{N&rsquo;(d_{ 1})}{Sσ\sqrt{T-t}} $$</p>
+<p><img src="../../images/post/post-10-Gammanew.gif" alt="image"></p>
+<p> </p>
+<p> </p>
+<h5 id="emspensp-vegav">  ＊ Vega(v)</h5>
+<p>        -  衡量標的資產價格隱含波動率對選擇權價值的變動，側重於對未來波動率預期的變化。<br>
+        -  波動率越高，期權越貴，因觸及執行價的可能性越大。<br>
+        -  選擇權賣方受益於隱含波動率的下降，但對期權買方來說正好相反。<br>
+        -  多頭期權有正的 vega，而空頭期權有負的 vega。<br>
+        -  即使標的資產價格沒有變動，但隱含波動率的變動會導致Vege值變化。<br>
+        -  Vega隨著標的資產的快速移動而增加。隨著期權到期日的臨近而下降。</p>
+<p>        - $$  v_{call} = v_{put}  =  \frac{\partial C}{\partial σ} =  \frac{\partial P}{\partial σ}  = S \sqrt{T-t} {N&rsquo;( d _1)} $$</p>
+<p><img src="../../images/post/post-10-Vega.gif" alt="image"></p>
+<p> </p>
+<p> </p>
+<h5 id="emspensp-thetaθ">  ＊ Theta(Θ)</h5>
+<p>        -  持有選擇權所需要的時間價值減損成本，即衡量選擇權價值隨時間變化的衰減速度，故Theta值始終為負值。   <br>
+        -  距到期日較遠時，Theta變化平滑或趨近線性，當接近到期日時則變為陡峭，因資產價格變動獲利機率攤到每單位時間變大。 <br>
+        -  當接近到期日時，深度價內及深度價外的選擇權的時間價值非常低，Theta趨近0。<br>
+        -  價外選擇權若有較高的隱含波動率，Theta值通常較高。</p>
+<p>        - $$  Θ_{call} =  \frac{\partial C}{\partial(T-t)} =  - \frac{S N&rsquo;(d_{ 1}) σ}{ 2\sqrt{T-t} } - rKe^{-r(T-t)} N(d_{ 2}) $$</p>
+<p>        - $$  Θ_{put} =  \frac{\partial P}{\partial(T-t)} =  - \frac{S N&rsquo;(d_{ 1}) σ}{ 2\sqrt{T-t} } + rKe^{-r(T-t)} N(-d_{ 2}) $$</p>
+<p><img src="../../images/post/post-10-Theta.gif" alt="image"></p>
+<p> </p>
+<p> </p>
+<h5 id="emspensp-rhoρ">  ＊ Rho(ρ)</h5>
+<p>        -  利率變動對選擇權價值的變動，衡量期權價格對無風險利率變化敏感度，即當無風險利率變化1個基點(0.01%)時，期權價格的變化量。<br>
+        -  當標的資產價格上升時，買權的Rho亦會增加，因標的資產價格的上升，買權的內在價值增加，對利率變化的敏感度也隨之上升，賣權則相反。<br>
+        -  較長天期的選擇權權具有較高的Rho，因其時間價值較高，對利率變化的影響更為明顯。<br>
+        -  較高利率環境中，買權的Rho可能會更高，因投資者在未來的現金流折現時會考慮更高的利率。<br>
+        -  舉例一個買權的 rho = 0.05，價格 1.25 美元，如果利率上升 1%，假設其他條件相同，選擇權價值來到1.30 美元。</p>
+<p>        - $$  ρ_{call} =  \frac{\partial C}{\partial r} =  K(T-t)e^{-r(T-t)} N(d_{ 2}) $$</p>
+<p>        - $$  ρ_{put} =  \frac{\partial P}{\partial r} =  -K(T-t)e^{-r(T-t)} N(d_{ 2}) $$</p>
+<p><img src="../../images/post/post-10-Rho.gif" alt="image"></p>
+<p> </p>
+<p> </p>
+<h5 id="emspensp-其他greeks參考wikihttpsenwikipediaorgwikiengreeks_financevariantzh-twcharm">  ＊ 其他Greeks，參考<a
+
+	
+	
+		href = "https://en.wikipedia.org/wiki/en:Greeks_%28finance%29?variant=zh-tw#Charm"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		>
+	
+	<span>
+		Wiki
+	</span>
+
+</a></h5>
+<p><img src="../../images/post/post-10-OptionsGreeks.png" alt="image"></p>
+<p> </p>
+<p> </p>
+<h4 id="2-python-圖型套件">2. Python 圖型套件</h4>
+<pre tabindex="0"><code class="language-jason" data-lang="jason">import numpy as np
+from scipy.stats import norm
+import pandas as pd
+
+import matplotlib.pyplot as plt
+from matplotlib import cm
+from mpl_toolkits.mplot3d import Axes3D
+from mpl_toolkits.mplot3d import art3d
+
+from matplotlib.animation import FuncAnimation</code></pre>
+<!-- raw HTML omitted -->
+
+        </div>
+
+        
+        
+      </div>
+    </div>
+    <div class="widget">
+    <h4 class="widget-title">Tag</h4>
+    <ul class="list-inline">
+      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
+          href="/tags/bloomberg">Bloomberg</a></li>
+      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
+          href="/tags/commidity">Commidity</a></li>
+      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
+          href="/tags/fx">Fx</a></li>
+      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
+          href="/tags/investing">Investing</a></li>
+      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
+          href="/tags/treasury">Treasury</a></li>
+      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
+          href="/tags/websites">Websites</a></li>
+    </ul>
+  </div>
+  </div>
+</section>
+
+
+
+<footer>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-center mb-5">
+        <a href="https://adamliao2525.github.io"><img src="https://adamliao2525.github.io/images/logo2.png" alt="Adam&#39;s blog"></a>
+      </div>
+               
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Contact Me</h6>
+        <ul class="list-unstyled">
+          
+                     
+          <li class="mb-3"><i class="ti-location-pin mr-3 text-primary"></i>Taiwan</li>
+          
+                     
+          <li class="mb-3"><a class="text-dark" href="mailto:#"><i
+                class="ti-email mr-3 text-primary"></i>#</a>
+          
+          </li>
+        </ul>
+      </div>
+      
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Social Contacts</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="https://github.com/adamliao2525">github</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="#">linkedin</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Categories</h6>
+        <ul class="list-unstyled">
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/notes">Notes</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/tools">Tools</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Quick Links</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="https://adamliao2525.github.io/about">About</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://adamliao2525.github.io/blog">Post</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://adamliao2525.github.io/gallery">Gallery</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-12 border-top py-4 text-center">
+        | copyright © 2020 <a
+
+	
+	
+		href = "https://themefisher.com"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		>
+	
+	<span>
+		Themefisher
+	</span>
+
+</a> All Rights Reserved |
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  var indexURL = "https://adamliao2525.github.io/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="https://adamliao2525.github.io/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://adamliao2525.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://adamliao2525.github.io/plugins/slick/slick.min.js"></script>
+
+<script src="https://adamliao2525.github.io/plugins/venobox/venobox.min.js"></script>
+
+<script src="https://adamliao2525.github.io/plugins/search/fuse.min.js"></script>
+
+<script src="https://adamliao2525.github.io/plugins/search/mark.js"></script>
+
+<script src="https://adamliao2525.github.io/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="https://adamliao2525.github.io/js/script.min.js"></script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<div id="js-cookie-box" class="cookie-box cookie-box-hide">
+	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-sm btn-primary ml-2">I Accept</span>
+</div>
+<script>
+	(function ($) {
+		const cookieBox = document.getElementById('js-cookie-box');
+		const cookieButton = document.getElementById('js-cookie-button');
+		if (!Cookies.get('cookie-box')) {
+			cookieBox.classList.remove('cookie-box-hide');
+			cookieButton.onclick = function () {
+				Cookies.set('cookie-box', true, {
+					expires:  2 
+				});
+				cookieBox.classList.add('cookie-box-hide');
+			};
+		}
+	})(jQuery);
+</script>
+
+
+<script type="text/javascript"
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+<style>
+.cookie-box {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 9999;
+  padding: 1rem 2rem;
+  background: rgb(71, 71, 71);
+  transition: all .75s cubic-bezier(.19, 1, .22, 1);
+  color: #fdfdfd;
+}
+
+.cookie-box-hide {
+  display: none;
+}
+</style>
+</body>
+</html>

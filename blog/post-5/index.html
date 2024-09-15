@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="zh-tw"><head>
+  <meta charset="utf-8">
+  <base target="blank" />
+  
+  <title>Adam&#39;s blog</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="彭博終端機功能使用筆記">
+  <meta name="author" content="Adam  ">
+  <meta name="generator" content="Hugo 0.115.4">
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://adamliao2525.github.io/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://adamliao2525.github.io/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://adamliao2525.github.io/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="https://adamliao2525.github.io/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://adamliao2525.github.io/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://adamliao2525.github.io/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://adamliao2525.github.io/images/favicon.png " type="image/x-icon">
+
+  <!-- google analitycs -->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'Your ID', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="https://adamliao2525.github.io"><img class="img-fluid"
+          src="https://adamliao2525.github.io/images/logo2.png" alt="Adam&#39;s blog"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu h3"></i>
+      </button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://adamliao2525.github.io/about">About</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://adamliao2525.github.io/blog">Post</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://adamliao2525.github.io/gallery">Gallery</a>
+          </li>
+          
+          
+        </ul>
+        <a class="navbar-brand mx-auto desktop-view" href="https://adamliao2525.github.io"><img class="img-fluid"
+            src="https://adamliao2525.github.io/images/logo2.png" alt="Adam&#39;s blog"></a>
+        
+        <!-- search -->
+        <div class="search pl-lg-4">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="https://adamliao2525.github.io/search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row http://localhost:1313/">
+      <div class="col-lg mx-auto">
+        <h2>Bloomberg終端機功能</h2>
+        
+        <div class="col-lg-9 row justify-content-end">
+          <span>By Adam  </span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>01 January 2024</span>
+          <span>&ensp;of&emsp;</span>
+          <span>
+            
+            <a href="/categories/tools"
+            class="text-primary">Tools</a>
+            
+          </span>
+          
+        </div>
+        <div style="height:20px"> </div>
+        <div class="col-lg-8 offset-md-1">
+          
+        </div>
+        <div class="content mb-5">
+          <hr>
+<h3 id="-基本指令介紹-">== 基本指令介紹 ==</h3>
+<p><strong> 1. BLP：博覽家 （LLP指令可將工作表或圖形轉成博覽家組成元素）</strong><br>
+<strong> 2. BPS：彭博資源中心</strong>   <!-- raw HTML omitted --><br>
+<strong> 3. BHUB：彭博中心</strong><br>
+<strong> 4. SNMR：線上課程</strong> <br>
+<strong> 5. DOCS：文件下載</strong><br>
+<strong> 6. HELP + 功能頁：查詢功能頁使用說明</strong><br>
+<strong> 6. ：查詢功能頁使用說明</strong></p>
+<!-- raw HTML omitted -->
+<hr>
+<h3 id="-比較圖形-">== 比較圖形 ==</h3>
+<h5 id="comp比較報酬">COMP比較報酬：</h5>
+<p> - 單純股價及考量股利再投資比較<br>
+<img src="../../images/post/post-5-COMP01.png" alt="image"></p>
+<h5 id="gc繪製曲線ccrv商品曲線分析">GC繪製曲線、CCRV商品曲線分析：</h5>
+<p> - 遠期曲線比較：GC for殖利率曲線、CCRV for商品曲線<br>
+<img src="../../images/post/post-5-GCandCCRV.png" alt="image"></p>
+<h5 id="g圖形分析">G圖形分析：</h5>
+<p> - 價差及迴歸分析圖形<br>
+<img src="../../images/post/post-5-GChart01.png" alt="image"></p>
+<h5 id="hra迴歸分析hrh歷史報酬">HRA迴歸分析、HRH歷史報酬：</h5>
+<p><img src="../../images/post/post-5-HRAandHRH.png" alt="image"></p>
+<h5 id="seag週期性走勢圖">SEAG週期性走勢圖：</h5>
+<p> - 一般圖形及價差5年比較<br>
+<img src="../../images/post/post-5-SEAG01.png" alt="image"><br>
+<img src="../../images/post/post-5-SEAG02.png" alt="image"></p>
+<h5 id="ecsu經濟預測誤差行情顯示ecmi市場衝擊行情顯示">ECSU經濟預測誤差行情顯示、ECMI市場衝擊行情顯示：</h5>
+<p><img src="../../images/post/post-5-ECSUandECMI.png" alt="image"></p>
+<hr>
+<h3 id="-外匯市場-">== 外匯市場 ==</h3>
+<h5 id="fxip外匯資訊入口">FXIP外匯資訊入口：</h5>
+<p> - 外匯市場總覽、遠期價格，及新聞查詢    <br>
+<img src="../../images/post/post-5-FXIP01.png" alt="image">   <br>
+<img src="../../images/post/post-5-FXIP02.png" alt="image"></p>
+<h5 id="fxfa外匯利率套利">FXFA外匯利率套利：</h5>
+<p> - 外匯利率套利預測 <br>
+<img src="../../images/post/post-5-FXFA.png" alt="image"></p>
+<h5 id="fxc外匯矩陣fxfc外匯預測">FXC外匯矩陣、FXFC外匯預測：</h5>
+<p><img src="../../images/post/post-5-FXCandFXFC.png" alt="image"></p>
+<h5 id="frd外匯遠期計算mktp市場圖">FRD外匯遠期計算、MKTP市場圖：</h5>
+<p><img src="../../images/post/post-5-FRDandMKTP.png" alt="image"></p>
+<h5 id="fxfm外匯預測模型frd外匯遠期計算">FXFM外匯預測模型、FRD外匯遠期計算：</h5>
+<p><img src="../../images/post/post-5-FXFMandFXD.png" alt="image"></p>
+<h5 id="fxsw外匯策略工作台fxre流動性提供者">FXSW外匯策略工作台、FXRE流動性提供者：</h5>
+<p><img src="../../images/post/post-5-FXSWandFXRE.png" alt="image"></p>
+<hr>
+<h3 id="-利率相關-">== 利率相關 ==</h3>
+<h5 id="dots點陣圖wirp利率隱含走向ois">DOTS點陣圖、WIRP利率隱含走向OIS：</h5>
+<p> - 遠期曲線的遠期價格變化    <br>
+<img src="../../images/post/post-5-DOTSandWIRP.png" alt="image"></p>
+<h5 id="wcrs全球貨幣排行">WCRS全球貨幣排行：</h5>
+<p><img src="../../images/post/post-5-WCRS.png" alt="image"></p>
+<h5 id="mipr市場隱含政策利率">MIPR市場隱含政策利率：</h5>
+<p><img src="../../images/post/post-5-MIPR.png" alt="image"></p>
+<h5 id="crvf曲線查詢器">CRVF：曲線查詢器</h5>
+<p> - 擇定曲線標的進行畫圖<br>
+<img src="../../images/post/post-5-CRVF.png" alt="image"></p>
+<h5 id="swdf交換曲線預設icvs交換曲線建立器">SWDF交換曲線預設、ICVS交換曲線建立器：</h5>
+<p> -境內、境外新台幣Swap Point<br>
+<img src="../../images/post/post-5-SWDFandICVS01.png" alt="image"><br>
+<img src="../../images/post/post-5-SWDFandICVS02.png" alt="image"></p>
+<h5 id="grm全球利率行情顯示olr隔夜拆款利率">GRM全球利率行情顯示、OLR隔夜拆款利率：</h5>
+<p><img src="../../images/post/post-5-GRMandOLR.png" alt="image"></p>
+<h5 id="fwcm遠期曲線矩陣">FWCM遠期曲線矩陣：</h5>
+<p> - 遠期曲線的遠期價格變化    <br>
+<img src="../../images/post/post-5-FWCM.png" alt="image"></p>
+<h5 id="bbti-irs交易入口irsb利率交換利率">BBTI IRS交易入口、IRSB利率交換利率：</h5>
+<p><img src="../../images/post/post-5-BBTIandIRSB.png" alt="image"></p>
+<hr>
+<h3 id="選擇權-">== 選擇權 ==</h3>
+<h5 id="ovml選擇權定價">OVML選擇權定價：</h5>
+<p><img src="../../images/post/post-5-OVML.png" alt="image"></p>
+<h5 id="gv波動率volc波動率比較">GV波動率、VOLC波動率比較：</h5>
+<p><img src="../../images/post/post-5-GVandVOLC.png" alt="image"></p>
+<h5 id="ovdv波動率表層">OVDV波動率表層：</h5>
+<p><img src="../../images/post/post-5-OVDV.png" alt="image"></p>
+<hr>
+<h3 id="債券-">== 債券 ==</h3>
+<h5 id="corp證券查訊">CORP證券查訊：</h5>
+<p><img src="../../images/post/post-5-CORP.png" alt="image"></p>
+<h5 id="crpr公司信用摘要drsk違約風險">CRPR公司信用摘要、DRSK違約風險：</h5>
+<p><img src="../../images/post/post-5-CRPR.png" alt="image"></p>
+<hr>
+<h3 id="-基金相關-">== 基金相關 ==</h3>
+<h5 id="fmap基金地圖">FMAP基金地圖：</h5>
+<p> -by基金地區<br>
+<img src="../../images/post/post-5-FMAP01.png" alt="image"><br>
+ -by基金類別
+<img src="../../images/post/post-5-FMAP02.png" alt="image"></p>
+<h5 id="imap日內市場圖">IMAP日內市場圖：</h5>
+<p> -查詢基金持股權重<br>
+<img src="../../images/post/post-5-IMAP01.png" alt="image"></p>
+<hr>
+<h3 id="-全球國家-">== 全球國家 ==</h3>
+<h5 id="wcdm全球國家債務觀測ddis債務分佈">WCDM全球國家債務觀測、DDIS債務分佈：</h5>
+<p><img src="../../images/post/post-5-WCDMandDDIS.png" alt="image"></p>
+<h5 id="eco經濟預測">ECO經濟預測：</h5>
+<p> - 可查找各經濟學家預測排名及各項預測內容(即ECOS功能頁)<br>
+<img src="../../images/post/post-5-ECO.png" alt="image"></p>
+<h5 id="ecfc經濟預測ecod經濟數據發布詳情">ECFC經濟預測、ECOD經濟數據發布詳情：</h5>
+<p><img src="../../images/post/post-5-ECFCandECOD.png" alt="image"></p>
+<h5 id="ecan世界經濟分析器ecmx全球經濟矩陣">ECAN世界經濟分析器、ECMX全球經濟矩陣：</h5>
+<p><img src="../../images/post/post-5-ECANandECMX.png" alt="image"></p>
+<h5 id="btmm全球利率bie經濟國家">BTMM全球利率、BIE經濟國家：</h5>
+<p><img src="../../images/post/post-5-BTMMandBIE.png" alt="image"></p>
+<hr>
+
+        </div>
+
+        
+        
+      </div>
+    </div>
+    <div class="widget">
+    <h4 class="widget-title">Tag</h4>
+    <ul class="list-inline">
+      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
+          href="/tags/bloomberg">Bloomberg</a></li>
+      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
+          href="/tags/commidity">Commidity</a></li>
+      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
+          href="/tags/fx">Fx</a></li>
+      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
+          href="/tags/investing">Investing</a></li>
+      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
+          href="/tags/treasury">Treasury</a></li>
+      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
+          href="/tags/websites">Websites</a></li>
+    </ul>
+  </div>
+  </div>
+</section>
+
+
+
+<footer>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-center mb-5">
+        <a href="https://adamliao2525.github.io"><img src="https://adamliao2525.github.io/images/logo2.png" alt="Adam&#39;s blog"></a>
+      </div>
+               
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Contact Me</h6>
+        <ul class="list-unstyled">
+          
+                     
+          <li class="mb-3"><i class="ti-location-pin mr-3 text-primary"></i>Taiwan</li>
+          
+                     
+          <li class="mb-3"><a class="text-dark" href="mailto:#"><i
+                class="ti-email mr-3 text-primary"></i>#</a>
+          
+          </li>
+        </ul>
+      </div>
+      
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Social Contacts</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="https://github.com/adamliao2525">github</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="#">linkedin</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Categories</h6>
+        <ul class="list-unstyled">
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/notes">Notes</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/tools">Tools</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Quick Links</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="https://adamliao2525.github.io/about">About</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://adamliao2525.github.io/blog">Post</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://adamliao2525.github.io/gallery">Gallery</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-12 border-top py-4 text-center">
+        | copyright © 2020 <a
+
+	
+	
+		href = "https://themefisher.com"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		>
+	
+	<span>
+		Themefisher
+	</span>
+
+</a> All Rights Reserved |
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  var indexURL = "https://adamliao2525.github.io/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="https://adamliao2525.github.io/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://adamliao2525.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://adamliao2525.github.io/plugins/slick/slick.min.js"></script>
+
+<script src="https://adamliao2525.github.io/plugins/venobox/venobox.min.js"></script>
+
+<script src="https://adamliao2525.github.io/plugins/search/fuse.min.js"></script>
+
+<script src="https://adamliao2525.github.io/plugins/search/mark.js"></script>
+
+<script src="https://adamliao2525.github.io/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="https://adamliao2525.github.io/js/script.min.js"></script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<div id="js-cookie-box" class="cookie-box cookie-box-hide">
+	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-sm btn-primary ml-2">I Accept</span>
+</div>
+<script>
+	(function ($) {
+		const cookieBox = document.getElementById('js-cookie-box');
+		const cookieButton = document.getElementById('js-cookie-button');
+		if (!Cookies.get('cookie-box')) {
+			cookieBox.classList.remove('cookie-box-hide');
+			cookieButton.onclick = function () {
+				Cookies.set('cookie-box', true, {
+					expires:  2 
+				});
+				cookieBox.classList.add('cookie-box-hide');
+			};
+		}
+	})(jQuery);
+</script>
+
+
+<script type="text/javascript"
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+<style>
+.cookie-box {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 9999;
+  padding: 1rem 2rem;
+  background: rgb(71, 71, 71);
+  transition: all .75s cubic-bezier(.19, 1, .22, 1);
+  color: #fdfdfd;
+}
+
+.cookie-box-hide {
+  display: none;
+}
+</style>
+</body>
+</html>
