@@ -7,7 +7,7 @@
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="this is meta description">
+  <meta name="description" content="選擇權定價、Grees，以及選擇權權的組合">
   <meta name="author" content="Adam  ">
   <meta name="generator" content="Hugo 0.115.4">
 
@@ -151,7 +151,7 @@
         </div>
         <div class="content mb-5">
           <p> </p>
-<h5 id="主要探討選擇權定價greek以及選擇權權的組合">主要探討選擇權定價、Greek，以及選擇權權的組合。</h5>
+<h5 id="主要探討選擇權定價grees以及選擇權權的組合">主要探討選擇權定價、Grees，以及選擇權權的組合。</h5>
 <hr>
 <p> </p>
 <p><img src="../../images/post/post-10-Market.png" alt="image"></p>
@@ -688,6 +688,47 @@
 <p>        ✓  海鷗策略(Seagull)，又稱為3-Way Collar；<br>
         藉由賣出2個選擇權及買入1個選擇權，壓低風險對沖成本，惟獲利有上限。</p>
 <p><img src="../../images/post/post-10-Seagull.png" alt="image"></p>
+<p><img src="../../images/post/post-10-Seagull.png" alt="image"></p>
+<p>        ✓  時間價差(Calendar Spread)；<br>
+        買入和賣出具有相同執行價格但不同到期日的選擇權，因為短期選擇權Theta值較高，而長期選擇權Theta值較低。</p>
+<p>        ✓  對角價差(Diagonal Spread)；<br>
+        一種時間價差變體，買入和賣出具有不同執行價格和不同到期日的選擇權。</p>
+<table>
+<thead>
+<tr>
+<th>Diagonal Spreads</th>
+<th>Option 1</th>
+<th>Option 2</th>
+<th>Underlying Assumption</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Calls</td>
+<td>Sell Near Higher</td>
+<td>Buy Far Lower</td>
+<td>Bullish</td>
+</tr>
+<tr>
+<td></td>
+<td>Buy Near Higher</td>
+<td>Sell Far Lower</td>
+<td>Bearish</td>
+</tr>
+<tr>
+<td>Puts</td>
+<td>Sell Near Lower</td>
+<td>Buy Far Higher</td>
+<td>Bearish</td>
+</tr>
+<tr>
+<td></td>
+<td>Buy Near Lower</td>
+<td>Sell Far Higher</td>
+<td>Bullish</td>
+</tr>
+</tbody>
+</table>
 <h5 id="emspensp----新奇型exotic">  ＊    新奇型(Exotic)</h5>
 <p>        ✓  數位選擇權(Digital Option)<br>
         買方報償為一特定金額或某，標的資產或兩者皆無的契約。</p>
@@ -890,6 +931,70 @@ from mpl_toolkits.mplot3d import Axes3D
 from mpl_toolkits.mplot3d import art3d
 
 from matplotlib.animation import FuncAnimation</code></pre>
+<p>   參考資料：<a
+
+	
+	
+		href = "https://www.quantsnote.com/python-plot-option-payoff-diagram/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		>
+	
+	<span>
+		Python–繪製選擇權的收益曲
+	</span>
+
+</a>、<a
+
+	
+	
+		href = "https://github.com/hashABCD/opstrat"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		>
+	
+	<span>
+		opstrat套件
+	</span>
+
+</a>、<a
+
+	
+	
+		href = "https://www.tejwin.com/insight/%E9%81%B8%E6%93%87%E6%AC%8A%E5%AE%9A%E5%83%B9-%E8%92%99%E5%9C%B0%E5%8D%A1%E7%BE%85%E6%A8%A1%E6%93%AC%E6%B3%95/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		>
+	
+	<span>
+		TEJ 選擇權定價-蒙地卡羅模擬法
+	</span>
+
+</a></p>
 <!-- raw HTML omitted -->
 
         </div>
