@@ -849,7 +849,9 @@
         -  依據常態分配，delta=0.2的買權期滿時，有20%會落在價內，而delta=0.95的買權期滿時，有95%會落在價內。</p>
 <p>         $$  Δ_{call} = \frac{\partial 𝐶}{\partial {\mit{S}}}  =N(d_{ 1}) $$</p>
 <p>         $$  Δ_{put} = \frac{\partial P}{\partial {\mit{S}}}  =N(d_{ 1}) -1 $$</p>
-<p><img src="../../images/post/post-10-Call_Delta.gif" alt="image">  <img src="../../images/post/post-10-Put_Delta.gif" alt="image"></p>
+<!-- raw HTML omitted -->
+<p><img src="https://lh3.googleusercontent.com/pw/AP1GczN1Xua56sJ8ZZnYrZIEXcyH2t0L_WKJHxVjW7V360tOqvq7Od1nw1KCUv9esEuYmz4w1LYk4UzqM4hktSrLAsgjIl3kBqmqm0WeTUCjTwIAkqMR-LI=w2400" alt="image"></p>
+<p><img src="https://lh3.googleusercontent.com/pw/AP1GczOlOouspJsSC06_lRqrG_7C-DVWpy_3Q2YnIV6iqzceHBaZd58RVbuTSLzIeyQwUyLb6DRE1g1q2fV-BRaicdgPfCp2BQQjhgMCQdnEc4ebNBGT3Sk=w2400" alt="image"></p>
 <p> </p>
 <p> </p>
 <h5 id="emspensp-gammaγ">  ＊ Gamma(Γ)</h5>
@@ -860,7 +862,8 @@
         -  一個高Gamma值、Delta=0.75選擇權，相較低Gamma但相同Delta值的選擇權，於到期時獲利機率較低。<br>
         -  深度價內或價外的選擇權Gamma值最低，價平時最高。</p>
 <p>        - $$  Γ_{call} = Γ_{put}  =  \frac{\partial  ^2C}{\partial {\mit{ S ^2}}}  = \frac{\partial  ^2P}{\partial {\mit{ S ^2}}} = \frac{N&rsquo;(d_{ 1})}{Sσ\sqrt{T-t}} $$</p>
-<p><img src="../../images/post/post-10-Gammanew.gif" alt="image"></p>
+<!-- raw HTML omitted -->
+<p><img src="https://lh3.googleusercontent.com/pw/AP1GczMgKptVQie7WdfiLmWv3TNnx5X7p-1nkyvtKbC9Bc63ptGP_IO59X57cntRFANsXBjtvjE2YHmiZ8V5L4rDQUpAVaE86r45qZoHJfuI_7C_deJzdWU=w2400" alt="image"></p>
 <p> </p>
 <p> </p>
 <h5 id="emspensp-vegav">  ＊ Vega(v)</h5>
@@ -871,7 +874,8 @@
         -  即使標的資產價格沒有變動，但隱含波動率的變動會導致Vege值變化。<br>
         -  Vega隨著標的資產的快速移動而增加。隨著期權到期日的臨近而下降。</p>
 <p>        - $$  v_{call} = v_{put}  =  \frac{\partial C}{\partial σ} =  \frac{\partial P}{\partial σ}  = S \sqrt{T-t} {N&rsquo;( d _1)} $$</p>
-<p><img src="../../images/post/post-10-Vega.gif" alt="image"></p>
+<!-- raw HTML omitted -->
+<p><img src="https://lh3.googleusercontent.com/pw/AP1GczOIB8XUaZlVppjM7RkDmkY9xPamMcJyNaGXtjL2qq9Lw4ZYTfAQxT2fOAHi5jDB_XU-5Qor865-Zk41vSRvVLq64OXI86zm9nKMOERQZqaoX_9Gnbw=w2400" alt="image"></p>
 <p> </p>
 <p> </p>
 <h5 id="emspensp-thetaθ">  ＊ Theta(Θ)</h5>
@@ -881,7 +885,8 @@
         -  價外選擇權若有較高的隱含波動率，Theta值通常較高。</p>
 <p>        - $$  Θ_{call} =  \frac{\partial C}{\partial(T-t)} =  - \frac{S N&rsquo;(d_{ 1}) σ}{ 2\sqrt{T-t} } - rKe^{-r(T-t)} N(d_{ 2}) $$</p>
 <p>        - $$  Θ_{put} =  \frac{\partial P}{\partial(T-t)} =  - \frac{S N&rsquo;(d_{ 1}) σ}{ 2\sqrt{T-t} } + rKe^{-r(T-t)} N(-d_{ 2}) $$</p>
-<p><img src="../../images/post/post-10-Theta.gif" alt="image"></p>
+<!-- raw HTML omitted -->
+<p><img src="https://lh3.googleusercontent.com/pw/AP1GczMX7IH-6WrYnZrIdGkfThba6puOBaUmtWNfqrgU0WlKXUur5D1z3wLVDgNv6kK717WAMxV9-iMCmonXcaJ5kcqW39X6HugYOwwf1juJx6BH09m0SWk=w2400" alt="image"></p>
 <p> </p>
 <p> </p>
 <h5 id="emspensp-rhoρ">  ＊ Rho(ρ)</h5>
@@ -892,7 +897,8 @@
         -  舉例一個買權的 rho = 0.05，價格 1.25 美元，如果利率上升 1%，假設其他條件相同，選擇權價值來到1.30 美元。</p>
 <p>        - $$  ρ_{call} =  \frac{\partial C}{\partial r} =  K(T-t)e^{-r(T-t)} N(d_{ 2}) $$</p>
 <p>        - $$  ρ_{put} =  \frac{\partial P}{\partial r} =  -K(T-t)e^{-r(T-t)} N(d_{ 2}) $$</p>
-<p><img src="../../images/post/post-10-Rho.gif" alt="image"></p>
+<!-- raw HTML omitted -->
+<p><img src="https://lh3.googleusercontent.com/pw/AP1GczNjSrzpUFikcFlcEy_HtW1wdYzDVAk11RoOJcpFgg2sly6TQTkD58HsUatgx_sneo0Y37T3al1zWEs3raxuQY6xK6l1h2O_VBmWYK2aojA0lOd4DrY=w2400" alt="image"></p>
 <p> </p>
 <p> </p>
 <h5 id="emspensp-其他greeks參考wikihttpsenwikipediaorgwikiengreeks_financevariantzh-twcharm">  ＊ 其他Greeks，參考<a
